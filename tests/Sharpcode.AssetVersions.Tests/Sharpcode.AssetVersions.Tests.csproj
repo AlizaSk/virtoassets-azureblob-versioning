@@ -17,8 +17,8 @@
     <PackageReference Include="xunit.runner.visualstudio" Version="2.4.0" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\src\VirtoCommerce.AssetVersions.Core\VirtoCommerce.AssetVersions.Core.csproj" />
-    <ProjectReference Include="..\..\src\VirtoCommerce.AssetVersions.Data\VirtoCommerce.AssetVersions.Data.csproj" />
-    <ProjectReference Include="..\..\src\VirtoCommerce.AssetVersions.Web\VirtoCommerce.AssetVersions.Web.csproj" />
+    <ProjectReference Include="..\..\src\Sharpcode.AssetVersions.Core\Sharpcode.AssetVersions.Core.csproj" />
+    <ProjectReference Include="..\..\src\Sharpcode.AssetVersions.Data\Sharpcode.AssetVersions.Data.csproj" />
+    <ProjectReference Include="..\..\src\Sharpcode.AssetVersions.Web\Sharpcode.AssetVersions.Web.csproj" />
   </ItemGroup>
 </Project>

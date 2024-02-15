@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <module>
-  <id>VirtoCommerce.AssetVersions</id>
+  <id>Sharpcode.AssetVersion</id>
   <version>3.400.0</version>
   <version-tag></version-tag>
 
@@ -9,22 +9,22 @@
     <!--<dependency id="VirtoCommerce.Core" version="3.400.2" />-->
   </dependencies>
 
-  <title>VirtoCommerce AssetVersions</title>
-  <description>VirtoCommerce AssetVersions</description>
+  <title>AssetVersion module</title>
+  <description>AssetVersion module</description>
 
   <authors>
-    <author>Aliza Shaikh</author>
+    <author>Reveation Labs</author>
   </authors>
   <owners>
-    <owner>Sharpcode</owner>
+    <owner>ReveationLabs</owner>
   </owners>
 
   <projectUrl>https://github.com/Sharpcode/vc-module-test-module</projectUrl>
-  <iconUrl>Modules/$(VirtoCommerce.AssetVersions.Web)/Content/logo.png</iconUrl>
+  <iconUrl>Modules/$(Sharpcode.AssetVersions.Web)/Content/logo.png</iconUrl>
   <requireLicenseAcceptance>false</requireLicenseAcceptance>
 
-  <assemblyFile>VirtoCommerce.AssetVersions.Web.dll</assemblyFile>
-  <moduleType>VirtoCommerce.AssetVersions.Web.Module, VirtoCommerce.AssetVersions.Web</moduleType>
+  <assemblyFile>Sharpcode.AssetVersions.Web.dll</assemblyFile>
+  <moduleType>Sharpcode.AssetVersions.Web.Module, Sharpcode.AssetVersions.Web</moduleType>
 
   <releaseNotes>First version.</releaseNotes>
   <copyright>Copyright © 2023 Sharpcode. All rights reserved</copyright>
