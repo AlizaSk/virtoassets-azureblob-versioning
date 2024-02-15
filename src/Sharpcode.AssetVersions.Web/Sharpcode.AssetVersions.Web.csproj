@@ -8,10 +8,10 @@
     <SonarQubeTestProject>false</SonarQubeTestProject>
   </PropertyGroup>
   <ItemGroup>
-    <EditorConfigFiles Remove="D:\VirtoAssets\src\VirtoCommerce.AssetVersions.Web\.editorconfig" />
+    <EditorConfigFiles Remove="D:\VirtoAssets\src\Sharpcode.AssetVersions.Web\.editorconfig" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="D:\VirtoAssets\src\VirtoCommerce.AssetVersions.Web\.editorconfig" />
+    <None Include="D:\VirtoAssets\src\Sharpcode.AssetVersions.Web\.editorconfig" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Azure.Core" Version="1.36.0" />
@@ -22,7 +22,7 @@
     <PackageReference Include="System.Text.Json" Version="8.0.0" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\VirtoCommerce.AssetVersions.Core\VirtoCommerce.AssetVersions.Core.csproj" />
-    <ProjectReference Include="..\VirtoCommerce.AssetVersions.Data\VirtoCommerce.AssetVersions.Data.csproj" />
+    <ProjectReference Include="..\Sharpcode.AssetVersions.Core\Sharpcode.AssetVersions.Core.csproj" />
+    <ProjectReference Include="..\Sharpcode.AssetVersions.Data\Sharpcode.AssetVersions.Data.csproj" />
   </ItemGroup>
 </Project>

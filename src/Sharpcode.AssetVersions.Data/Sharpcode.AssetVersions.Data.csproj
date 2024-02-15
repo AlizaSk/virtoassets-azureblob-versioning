@@ -48,6 +48,6 @@
     <Folder Include="Repositories\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\VirtoCommerce.AssetVersions.Core\VirtoCommerce.AssetVersions.Core.csproj" />
+    <ProjectReference Include="..\Sharpcode.AssetVersions.Core\Sharpcode.AssetVersions.Core.csproj" />
   </ItemGroup>
 </Project>

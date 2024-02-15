@@ -1,0 +1,63 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CFC55FA3-F9C3-44C4-B45B-1829E6F71B38}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{13199E4F-B797-46D2-90B4-B760050D75A4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C6B0655D-7DA0-4244-B4B4-8774EC531FCC}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		Directory.Build.props = Directory.Build.props
+		LICENSE = LICENSE
+		module.ignore = module.ignore
+		README.md = README.md
+		Sharpcode.TestModule.sln.DotSettings = Sharpcode.TestModule.sln.DotSettings
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sharpcode.AssetVersions.Core", "src\Sharpcode.AssetVersions.Core\Sharpcode.AssetVersions.Core.csproj", "{25011088-A1F2-41CA-81BD-946CD9CCA0DE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sharpcode.AssetVersions.Data", "src\Sharpcode.AssetVersions.Data\Sharpcode.AssetVersions.Data.csproj", "{EF1DD7E0-2B0B-4DD6-8926-A48D8F99F67A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sharpcode.AssetVersions.Web", "src\Sharpcode.AssetVersions.Web\Sharpcode.AssetVersions.Web.csproj", "{5FD3EE4A-8DE8-4745-A520-77F732CEAFE3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sharpcode.AssetVersions.Tests", "tests\Sharpcode.AssetVersions.Tests\Sharpcode.AssetVersions.Tests.csproj", "{D27DDD27-E644-48EC-921A-DC7D6D69CAB5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{25011088-A1F2-41CA-81BD-946CD9CCA0DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25011088-A1F2-41CA-81BD-946CD9CCA0DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25011088-A1F2-41CA-81BD-946CD9CCA0DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25011088-A1F2-41CA-81BD-946CD9CCA0DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF1DD7E0-2B0B-4DD6-8926-A48D8F99F67A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF1DD7E0-2B0B-4DD6-8926-A48D8F99F67A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF1DD7E0-2B0B-4DD6-8926-A48D8F99F67A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF1DD7E0-2B0B-4DD6-8926-A48D8F99F67A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FD3EE4A-8DE8-4745-A520-77F732CEAFE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FD3EE4A-8DE8-4745-A520-77F732CEAFE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FD3EE4A-8DE8-4745-A520-77F732CEAFE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FD3EE4A-8DE8-4745-A520-77F732CEAFE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D27DDD27-E644-48EC-921A-DC7D6D69CAB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D27DDD27-E644-48EC-921A-DC7D6D69CAB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D27DDD27-E644-48EC-921A-DC7D6D69CAB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D27DDD27-E644-48EC-921A-DC7D6D69CAB5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{25011088-A1F2-41CA-81BD-946CD9CCA0DE} = {CFC55FA3-F9C3-44C4-B45B-1829E6F71B38}
+		{EF1DD7E0-2B0B-4DD6-8926-A48D8F99F67A} = {CFC55FA3-F9C3-44C4-B45B-1829E6F71B38}
+		{5FD3EE4A-8DE8-4745-A520-77F732CEAFE3} = {CFC55FA3-F9C3-44C4-B45B-1829E6F71B38}
+		{D27DDD27-E644-48EC-921A-DC7D6D69CAB5} = {13199E4F-B797-46D2-90B4-B760050D75A4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4FE65273-26F9-4809-A0C5-A16DDD67A35B}
+	EndGlobalSection
+EndGlobal
